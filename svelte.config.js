@@ -11,6 +11,7 @@ const config = {
 		adapter: adapter({
 			pages: "build",
 			assets: "build",
+			fallback: index.html,
 		}),
 		paths: {
 			base: dev ? "" : process.env.BASE_PATH,
