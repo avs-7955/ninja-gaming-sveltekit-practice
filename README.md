@@ -1,38 +1,47 @@
-# create-svelte
+# Gaming Ninja - Basic website using SvelteKit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This repository contains a basic project built using SvelteKit.
+<br>
+TODO - Layout left
+<br>
 
-## Creating a project
+<h1 align="center">
+  <img src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/stack_GjMfbKvDP.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1655143763495" width="55" alt="Tech stack" />
+ <br>
+ TechStack</h1>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<div align="center">
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/svelte-kit.svg" alt="SvelteKit" height="80"/>
+</div>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Run Locally
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+Clone the project
 
 ```bash
-npm run build
+  git https://github.com/avs-7955/polling-app-svelte.git
 ```
 
-You can preview the production build with `npm run preview`.
+Go to the project directory
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+  cd polling-app-svelte
+```
+
+Install the packages
+
+```bash
+  npm i
+```
+
+Run the server
+
+```bash
+  npm run dev
+```
+
+Click the localhost link shown in the console to view the website.
+
+## Author
+
+-   [Ayushi Sharan](https://github.com/avs-7955)
