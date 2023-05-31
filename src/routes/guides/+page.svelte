@@ -2,6 +2,8 @@
 	// getting the guides from the +page.js
 	export let data
 	let guides = data.props.guides
+	import { base } from "$app/paths"
+	// base = "" | `/{ninja-gaming-sveltekit-practice}`
 </script>
 
 <div class="guides">
@@ -9,8 +11,9 @@
 		{#each guides as guide}
 			<li>
 				<!-- prefetching the data, when the user hovers over the tag -->
-				<a data-sveltekit-preload-data="hover" href="/guides/{guide.id}"
-					>{guide.title}</a
+				<a
+					data-sveltekit-preload-data="hover"
+					href="{base}/guides/{guide.id}">{guide.title}</a
 				>
 			</li>
 		{/each}

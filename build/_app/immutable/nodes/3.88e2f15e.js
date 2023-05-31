@@ -1,7 +1,0 @@
-import{S as G,i as H,s as L,k as r,q as d,a as E,l as u,m,r as h,h as o,c as y,n as p,b as O,D as t,H as A}from"../chunks/index.8528c4bc.js";function S(w){let e,n,v,f,l,_,b,a,x,g,i,q;return{c(){e=r("div"),n=r("h1"),v=d("Welcome"),f=E(),l=r("p"),_=d(`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-		accusantium facilis itaque molestias harum inventore unde voluptate
-		reiciendis ipsum voluptatum? Provident, sequi? Officiis, voluptas sit
-		hic explicabo ab distinctio optio.`),b=E(),a=r("a"),x=d("View Guides"),g=E(),i=r("a"),q=d("About Us"),this.h()},l(c){e=u(c,"DIV",{class:!0});var s=m(e);n=u(s,"H1",{});var D=m(n);v=h(D,"Welcome"),D.forEach(o),f=y(s),l=u(s,"P",{});var P=m(l);_=h(P,`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-		accusantium facilis itaque molestias harum inventore unde voluptate
-		reiciendis ipsum voluptatum? Provident, sequi? Officiis, voluptas sit
-		hic explicabo ab distinctio optio.`),P.forEach(o),b=y(s),a=u(s,"A",{href:!0,class:!0});var j=m(a);x=h(j,"View Guides"),j.forEach(o),g=y(s),i=u(s,"A",{href:!0,class:!0});var V=m(i);q=h(V,"About Us"),V.forEach(o),s.forEach(o),this.h()},h(){p(a,"href","/guides"),p(a,"class","svelte-sjnnev"),p(i,"href","/about"),p(i,"class","svelte-sjnnev"),p(e,"class","index svelte-sjnnev")},m(c,s){O(c,e,s),t(e,n),t(n,v),t(e,f),t(e,l),t(l,_),t(e,b),t(e,a),t(a,x),t(e,g),t(e,i),t(i,q)},p:A,i:A,o:A,d(c){c&&o(e)}}}class W extends G{constructor(e){super(),H(this,e,null,S,L,{})}}export{W as component};

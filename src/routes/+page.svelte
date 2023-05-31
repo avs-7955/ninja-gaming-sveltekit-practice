@@ -1,4 +1,6 @@
 <script>
+	import { base } from "$app/paths"
+	// base = "" | `/{ninja-gaming-sveltekit-practice}`
 </script>
 
 <div class="index">
@@ -9,8 +11,8 @@
 		reiciendis ipsum voluptatum? Provident, sequi? Officiis, voluptas sit
 		hic explicabo ab distinctio optio.
 	</p>
-	<a href="/guides">View Guides</a>
-	<a href="/about">About Us</a>
+	<a href="{base}/guides">View Guides</a>
+	<a href="{base}/about">About Us</a>
 </div>
 
 <style>

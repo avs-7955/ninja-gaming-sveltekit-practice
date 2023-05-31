@@ -1,10 +1,12 @@
 <script>
 	import { page } from "$app/stores"
+	import { base } from "$app/paths"
+	// base = "" | `/{ninja-gaming-sveltekit-practice}`
 </script>
 
 <div class="error">
 	<h1>{$page.status}: {$page.error.message}</h1>
-	<a href="/guides">View all Guides...</a>
+	<a href="{base}/guides">View all Guides...</a>
 </div>
 
 <style>
