@@ -2,7 +2,7 @@
 	import Title from "$lib/title.svelte"
 	import "../../styles/global.css"
 	import { base } from "$app/paths"
-	base = "" | `/{ninja-gaming-sveltekit-practice}`
+	// base = "" | `/{ninja-gaming-sveltekit-practice}`
 </script>
 
 <header>
