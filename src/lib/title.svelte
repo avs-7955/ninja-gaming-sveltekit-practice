@@ -1,9 +1,10 @@
 <script>
 	export let title = "Gaming Ninja"
+	import { base } from "$app/paths"
 </script>
 
 <div class="title">
-	<img src="/logo.svg" alt="Logo" />
+	<img src="{base}/logo.svg" alt="Logo" />
 	<h1>{title}</h1>
 </div>
 
