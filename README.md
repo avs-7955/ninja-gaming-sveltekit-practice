@@ -40,7 +40,7 @@ Run the server
   npm run dev
 ```
 
-Click the localhost link shown in the console to view the website.
+Click the localhost link shown in the console.
 
 ## Author
 
