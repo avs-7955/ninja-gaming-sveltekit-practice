@@ -1,6 +1,6 @@
 <script>
 	import { base } from "$app/paths"
-	// base = "" | `/{ninja-gaming-sveltekit-practice}`
+	base = "" | `/{ninja-gaming-sveltekit-practice}`
 </script>
 
 <div class="about">

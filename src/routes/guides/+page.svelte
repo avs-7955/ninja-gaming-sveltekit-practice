@@ -3,7 +3,7 @@
 	export let data
 	let guides = data.props.guides
 	import { base } from "$app/paths"
-	// base = "" | `/{ninja-gaming-sveltekit-practice}`
+	base = "" | `/{ninja-gaming-sveltekit-practice}`
 </script>
 
 <div class="guides">
